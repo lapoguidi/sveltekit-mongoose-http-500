@@ -16,6 +16,14 @@ npm install
 # add mongoose
 npm i -D mongoose
 
+# add test code
+Add below code to the top of src/routes/+page.svelte
+
+<script>
+	import { Schema } from 'mongoose';
+	console.log('SCHEMA', Schema);
+</script>
+
 # start application in development
 npm run dev
 ```
